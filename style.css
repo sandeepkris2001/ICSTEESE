@@ -131,7 +131,7 @@ font-weight: bold
   background-attachment: fixed;
    background-position: center;
    background-size: cover;
-   height: 100vh;
+   height: 95vh;
   font-weight: bolder;
   margin-left: auto;
   margin-right: auto;
@@ -150,7 +150,7 @@ sup {
 }
 .navbar-toggler-icon{
   border-radius: 3px;
-  background-color:rgb(248, 99, 45);
+  background-color:rgba(0, 0, 0, 0.7);
 
 }
 
@@ -697,84 +697,28 @@ footer p{
   width: 100;
   height: 100;
 }
-
-
-@media screen and (max-width: 576px) {
-  .cen{
-    margin: 0 2.5% 0 2.5%;
-   }
-   .cent{
-     margin: 0 2.5% 0 2.5%;
-    }
+@media screen and (min-width:300px) and (max-width: 360px){
+  /* #title{
+    height: 100vh;
+  } */
+  #title h5{
+    font-weight: bold;
+  }
+  #title h3{
+    font-size: 80%;
+  }
+  #title h5{
+font-size: small;
+  }
   .saveethalogo{
     width: 200px;
     height: 80px;
     object-fit: contain;
   }
-  .navbar-nav{
-    background-color:black;
-  }
-
-
-  #title h5{
-    font-weight: bold;
-  }
-  #title h3{
-    font-size: 90%;
-  }
-  #title h5{
-font-size: medium;
-  }
-
-
-
-
-
-
-
-  .paytable{
-    font-size:medium ;
-  }
-  #track1 tr{
-    font-size: medium;
-  }
-  #track2 tr{
-    font-size: medium;
-  }
-  #track1{
-    margin: 0 1% 0 1%;
-  }
-  #track2{
-    margin: 0 2% 0 2%;
-
-  }
-  #workshop table{
-    font-size: medium;
-    width: 90%;
-
-  }
- #location .map{
-  display: inline-block;
-  justify-content:center ;
-  align-items: center;
-  text-align: center;
- }
-
-.table1 {
-  width: 95%;
-}
-
-.seclogo h5{
-  font-size: 115%;
-}
-.coll h3{
-  font-size: 130%;
-
 }
 
 
-}
-@media screen and (max-width: 768px) {
+@media screen and (min-width:360px) and (max-width: 576px) {
 
 
 
@@ -785,7 +729,7 @@ font-size: medium;
     background-attachment: fixed;
      background-position: center;
      background-size: cover; */
-     height: 90vh;
+     height:90vh;
     
   }
   
@@ -796,7 +740,15 @@ font-size: medium;
    .cent{
      margin: 0 2.5% 0 2.5%;
     }
-
+    #title h5{
+      font-weight: bold;
+    }
+    #title h3{
+      font-size: large;
+    }
+    #title h5{
+  font-size: medium;
+    }
 
 
     #About{
@@ -1021,7 +973,7 @@ font-size: medium;
 
 
   .saveethalogo{
-    margin-top: -3%;
+    margin-top: -2%;
     width: 340px;
     height: 80px;
     object-fit: contain;
@@ -1034,7 +986,346 @@ font-size: medium;
     font-size: 115%;
   }
   .navbar-nav{
+    background-color:rgba(0, 0, 0, 0.3);
+  }
+  .map{
+    padding-bottom: 4%;
+  }
+#location .map{    display: inline-block;
+    justify-content:center ;
+    align-items: center;
+   }
+   #workshop table{
+    font-size: medium;
+    width: 90%;
+  }
+
+.table1 {
+  width: 95%;
+}
+
+
+
+
+
+  .cen{
+    margin: 0 2.5% 0 2.5%;
+   }
+   .cent{
+     margin: 0 2.5% 0 2.5%;
+    }
+  .saveethalogo{
+    width: 200px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .navbar-nav{
     background-color:black;
+  }
+
+
+  
+
+
+
+
+
+
+
+  .paytable{
+    font-size:medium ;
+  }
+ 
+ #location .map{
+  display: inline-block;
+  justify-content:center ;
+  align-items: center;
+  text-align: center;
+ }
+
+
+
+.seclogo h5{
+  font-size: 115%;
+}
+.coll h3{
+  font-size: 130%;
+
+}
+.navbar-nav{
+    background-color:rgba(0, 0, 0, 0.3);
+  }
+  .saveethalogo{
+    /* margin-top: -1%; */
+    width: 340px;
+    height: 80px;
+    object-fit: contain;
+  }
+
+}
+@media screen and (min-width:568px) and (max-width: 768px) {
+
+
+
+  #title{
+    /* background-color: #e7e9f0;
+    color:white;
+    background-image: url("Images/bgsec.jpg");
+    background-attachment: fixed;
+     background-position: center;
+     background-size: cover; */
+     height: 82vh;
+    
+  }
+  
+ 
+  .cen{
+    margin: 0 2.5% 0 2.5%;
+   }
+   .cent{
+     margin: 0 2.5% 0 2.5%;
+    }
+#title h3{
+  font-size: large;
+}
+
+
+    #About{
+      margin: 0 2%;
+      font-size: medium;
+
+    }
+
+
+
+    .col ul{
+      list-style-type:square;
+      font-size: medium;
+      margin: 0 3%;
+      text-align: left;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-weight: 500;
+      font-style: italic;
+
+    }
+    
+
+
+
+ #ImpRTables button{
+    font-weight: 400;
+      font-size: small;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #ImpRTables h3{
+    font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+  }
+  .tabs{
+    /* font-family:'Poppins',sans-serif; */
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    
+  }
+  .sidebar{
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     width:100%;
+     
+  }
+  .sidebar button{
+    margin-right: 3%;
+  }
+  .tab-btn{
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: #0e1b4d;
+    color: #fff;
+    padding: 0.5% 3%;
+    font-size: medium;
+  }
+  .tab-btn-active{
+    border: none;
+    border-radius:4px;
+    font-weight: 600;
+    background-color: orangered;
+    color: #fff;
+    padding: 0.5% 3%;
+  
+  }
+  .content{
+    width:100%;
+  }
+  .tab-content{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content:left;
+    text-align:left;
+  
+   
+    display: none;
+  }
+  .tab-content-active{
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+  }
+ .first{
+  width: 80%;
+ }
+  .second{
+    /* float: left;
+    padding-left: 5%; */
+    width: 90%;
+  }
+  th:first-child {
+   border-top-left-radius:3px;
+  }
+
+  .firsttable{
+    background: #E3E2D5;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 220px;
+    margin: auto;
+    max-width: 600px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+
+  }
+  .firsttable td{
+    font-size: 100%; 
+
+  }
+  .secondtable{
+    background: #E3E2D5;
+   border-radius:3px;
+   border-collapse: collapse;
+   height: 220px;
+   margin: auto;
+   max-width: 600px;
+   padding:5px;
+   text-align: center;
+   width: 100%;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   animation: float 5s infinite;
+  }
+  .secondtable td{
+    font-size: 70%;
+  }
+  
+  th:last-child {
+   border-top-right-radius:3px;
+   border-right:none;
+  }
+   
+  tr {
+   border-top: 1px solid #C1C3D1;
+   border-bottom: 1px solid #C1C3D1;
+   color:#666B85;
+   font-size:small;
+   font-weight:normal;
+   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  }
+  
+  tr:hover td {
+   background:orangered;
+   color:#FFFFFF;
+   border-top: 1px solid #22262e;
+  }
+  
+  tr:first-child {
+   border-top:none;
+  }
+  
+  tr:last-child {
+   border-bottom:none;
+  }
+  
+  
+  
+  tr:last-child td:first-child {
+   border-bottom-left-radius:3px;
+  }
+  
+  tr:last-child td:last-child {
+   border-bottom-right-radius:3px;
+  }
+  
+  td {
+   background:#FFFFFF;
+   padding:12px;
+   text-align:left;
+   vertical-align:middle;
+   border-right: 1px solid #C1C3D1;
+   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   font-weight: 500;
+   color: black;
+   font-style: italic;
+  
+  }
+  
+  td:last-child {
+   border-right: 0px;
+  }
+  .reg span{
+    text-align: center;
+  }
+  .tabs .reg span a{
+    text-align: center;
+    padding: 1.5%;
+    width: 100%;
+    border-radius: 1px;
+  }
+  #registrationDates tr{
+    padding-right: 50px;
+  }
+
+
+  #Faculties{
+    margin: 0 4%;
+
+  }
+  #Faculties h3{
+    font-weight: bold;
+    text-transform: capitalize;
+    
+    
+    }
+    #Faculties p{
+      text-align: justify;
+      font-weight: 500;
+      font-size: medium;
+      font-style: italic;
+    }
+
+
+
+  .saveethalogo{
+    margin-top: -2%;
+    width: 340px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .seclogo a img{
+    width: 60px;
+    height: 60px;
+  }
+  .seclogo h5{
+    font-size: 115%;
+  }
+  .navbar-nav{
+    background-color:rgba(0, 0, 0, 0.3);
   }
   .map{
     padding-bottom: 4%;
@@ -1052,5 +1343,4 @@ font-size: medium;
   width: 95%;
 }
 }
-
 
