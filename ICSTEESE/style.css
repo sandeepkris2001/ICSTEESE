@@ -1,0 +1,1056 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%; 
+}
+
+/* .reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition:2.5s all ease;
+}
+
+.reveal.activee{
+  transform: translateY(0);
+  opacity: 1;
+} */
+#load-hide{
+  display: none;
+}
+#btn-back-to-top {
+  border-radius: 50%;
+  background-color:orangered;
+  color: #e7e9f0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  font-size: larger;
+  display: none;
+  outline: none;
+}
+
+#preloader{
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: whitesmoke;
+}
+#preloader li{
+ border-radius: 4px;
+  display:inline-block;
+  width: 12px;
+  height: 49px;
+  margin: 0 1px;
+  background-color: orangered;
+  animation: popping .7s infinite alternate;
+}
+
+@keyframes popping {
+  0%{
+    transform: scale(1);
+  }
+  25%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1);
+  }
+  75%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scaley(2.1);
+  }
+}
+#preloader li:nth-child(1){
+  animation-delay: .1s;
+}
+#preloader li:nth-child(2){
+  animation-delay: .2s;
+}
+#preloader li:nth-child(3){
+  animation-delay: .3s;
+}
+#preloader li:nth-child(4){
+  animation-delay: .4s;
+}
+.saveethalogo{
+  width: 520px;
+  height: 80px;
+  margin-top: 5%;
+
+}
+.seclogo{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.seclogo h5{
+  font-weight: bold;
+  text-align: justify;
+}
+#title ul li .active{
+background-color: orangered;
+}
+
+#title ul li a:nth-child(1):hover,li a:nth-child(2):hover,li a:nth-child(4):hover,li a:nth-child(5):hover,li a:nth-child(7):hover,li a:nth-child(8):hover,li a:nth-child(9):hover{
+  background-color: orangered;
+  transition: all 0.1s ease;
+}
+a #navbarDropdown .nav-link .dropdown-toggle{
+  font-weight: bold;
+}
+#navbarTogglerDemo01 ul .dropdown-menu{
+  background:#051747; 
+ 
+  color: white;
+}
+#navbarTogglerDemo01 .dropdown-menu li a{ 
+  color: white;
+font-weight: bold
+}
+#navbarTogglerDemo01 .dropdown-menu li a:hover{
+  background-color:orangered;
+
+}
+#navbarTogglerDemo01 li a i{
+  font-size: large;
+  padding-right: 3px;
+}
+
+#title{
+  background-color: #e7e9f0;
+  color:white;
+  background-image: url("Images/bgsec.jpg");
+  background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+sup {
+  vertical-align: super;
+  font-size: large;
+}
+.coll h3{
+  font-weight: bolder;
+  text-align: center;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+
+}
+.navbar-toggler-icon{
+  border-radius: 3px;
+  background-color:rgb(248, 99, 45);
+
+}
+
+#navbarTogglerDemo01 li{
+  padding:0 20px;
+  font-size: large;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bold;
+}
+
+#navbarTogglerDemo01 {
+  /* background:linear-gradient(to right,#ADD8E6,#051747);  */
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+#title h5{
+  font-weight: bold;
+}
+#link{
+  text-transform: uppercase;
+  color: white;
+  
+}
+#About{
+  margin: 0 10%;
+}
+
+ h3{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Marcellus SC', serif;
+}
+#About .abtObj{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: large;
+ list-style-position: inside;
+ font-style: italic;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.abtObj li:hover{
+  background-color: unset;
+ }
+#About p{
+  text-align: justify;
+  font-weight: 500;
+  font-size: large;
+  font-style: italic;
+  margin: 0 6%;
+
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#head{
+  text-align: center;
+
+}
+#head h5{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#aboutConference p{
+  text-align: center;
+  margin: 0 6%;
+  font-style: italic;
+
+  font-weight: 500;
+  font-size: larger;
+}
+
+.col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col ul{
+  list-style-type:square;
+  font-size: large;
+  margin: 0 10%;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: italic;
+  
+  font-weight: 500;
+  font-size: large;
+
+}
+.col ul{
+  list-style-type:square;
+  font-size: large;
+  text-align: left;
+}
+
+
+
+
+#ImpRTables{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+   text-align: center;
+  
+  }
+  .reg a:hover{
+  letter-spacing: 1px;
+  }
+  .reg a{
+  font-weight: lighter;  }
+  #ImpRTables button{
+    font-weight: 400;
+      font-size: large;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #ImpRTables h3{
+    font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+  }
+  .tabs{
+    /* font-family:'Poppins',sans-serif; */
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    
+  }
+  .sidebar{
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     width:100%;
+     
+  }
+  .sidebar button{
+    margin-right: 3%;
+  }
+  .tab-btn{
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: #0e1b4d;
+    color: #fff;
+    padding: 0.5% 3%;
+    font-size: larger;
+  }
+  .tab-btn-active{
+    border: none;
+    border-radius:4px;
+    font-weight: 600;
+    background-color: orangered;
+    color: #fff;
+    padding: 0.5% 3%;
+  
+  }
+  .content{
+    width:100%;
+  }
+  .tab-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  
+   
+    display: none;
+  }
+  .tab-content-active{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .tab-content img{
+    width:350px;
+  }
+  div.table-title {
+    display: block;
+   margin: auto;
+   max-width: 600px;
+   padding:5px;
+   width: 100%;
+  }
+  
+  .table-title h3 {
+    color: #5D001E;
+    font-size: 30px;
+    font-weight: 400;
+    font-style:normal;
+    /* font-family: "Roboto", helvetica, arial, sans-serif; */
+    font-weight: 500;
+  font-size: large;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    text-transform:uppercase;
+  }
+  
+  
+  
+  div.table-title {
+    display: block;
+   margin: auto;
+   max-width: 600px;
+   padding:5px;
+   width: 100%;
+  }
+  
+  .table-title h3 {
+    color: #5D001E;
+    font-size: 30px;
+    font-weight: 400;
+    font-style:normal;
+    /* font-family: "Roboto", helvetica, arial, sans-serif; */
+    font-weight: 500;
+  font-size: large;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    text-transform:uppercase;
+  }
+  
+  .table-fill {
+   background: #E3E2D5;
+   border-radius:3px;
+   border-collapse: collapse;
+   height: 320px;
+   margin: auto;
+   max-width: 600px;
+   padding:5px;
+   width: 100%;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   animation: float 5s infinite;
+  }
+  
+  th:first-child {
+   border-top-left-radius:3px;
+  }
+  
+  th:last-child {
+   border-top-right-radius:3px;
+   border-right:none;
+  }
+   
+  tr {
+   border-top: 1px solid #C1C3D1;
+   border-bottom: 1px solid #C1C3D1;
+   color:#666B85;
+   font-size:16px;
+   font-weight:normal;
+   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  }
+  
+  tr:hover td {
+   background:orangered;
+   color:#FFFFFF;
+   border-top: 1px solid #22262e;
+  }
+  
+  tr:first-child {
+   border-top:none;
+  }
+  
+  tr:last-child {
+   border-bottom:none;
+  }
+  
+  
+  
+  tr:last-child td:first-child {
+   border-bottom-left-radius:3px;
+  }
+  
+  tr:last-child td:last-child {
+   border-bottom-right-radius:3px;
+  }
+  
+  td {
+   background:#FFFFFF;
+   padding:20px;
+   text-align:left;
+   vertical-align:middle;
+   font-size:larger;
+   border-right: 1px solid #C1C3D1;
+   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   font-weight: 500;
+  font-size: large; 
+   color: black;
+   font-style: italic;
+  
+  }
+  
+  td:last-child {
+   border-right: 0px;
+  }
+  
+  th.text-left {
+   text-align: left;
+  }
+  
+  th.text-center {
+   text-align: center;
+  }
+  
+  th.text-right {
+   text-align: right;
+  }
+  
+  td.text-left {
+   text-align: left;
+  }
+  
+  td.text-center {
+   text-align: center;
+  }
+  
+  td.text-right {
+   text-align: right;
+  }
+  #registrationDates tr{
+    padding-right: 50px;
+  }
+
+
+
+
+.dates table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.dates h3{
+  text-align: center;
+
+  font-weight: bold;
+  font-family: 'Marcellus SC', serif;
+  color: #051747
+}
+
+.payment table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.paytable{
+  font-size: large;
+}
+#papersubmission h2{
+  text-align: center;
+  font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  color: #051747;
+
+}
+#papersubmission{
+  margin: 0 10%;
+
+}
+#papersubmission p{
+  font-size: large;
+  font-weight: bold;
+  color: #051747;
+}
+#papersubmission ul{
+list-style-position: inside;
+font-size: large;
+font-weight: 500;
+margin-left: 3%;
+}
+#papersubmission li:hover{
+  background-color: unset;
+ }
+.container{
+    margin: 0 15%;
+    text-align: justify;
+}
+.container h5{
+  color: #051747;
+
+}
+.container p{
+  font-weight: 500;
+  font-size: large;
+}
+.chief{
+    width: 20%;
+    height: 30%;
+
+    color: #051747;
+
+}
+
+#guest1{
+    text-align: center;
+}
+#guest1 h2{
+  font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  color: #051747;
+
+}
+.guest1img{
+    margin: 0 10px;
+  display: inline-block;
+  font-size: medium;
+  text-align: left;
+}
+.guest1img p{
+  text-align: center;
+  font-weight: 500;
+}
+
+#guest1 h3{
+  font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  color: #051747;
+
+
+}
+.guest1img img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+ .guest1img:hover img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+#partners h3{
+  font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  color: #051747;
+
+}
+#location{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.map{
+  margin: 0 10px;
+  display: inline-block;
+  font-size: medium;
+  text-align: left;
+}
+
+.logo{
+  width: 25%;
+  margin: 20px;
+  padding-right:0.5%;
+}
+#Faculties{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content 1fr;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 5000;
+  font-size: large;
+}      
+#Faculties h3{
+font-weight: bold;
+text-transform: capitalize;
+margin: 0 10%;
+
+
+}
+#Faculties p{
+  text-align: justify;
+  font-weight: 500;
+  font-size: large;
+  font-style: italic;
+}
+#Faculties .comm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cen{
+ margin: 0 0 0 26%;
+}
+.cent{
+  margin: 0 0 0 30%;
+ }
+
+
+
+
+footer{
+  padding: 2% 0 0 0;
+  color: white;
+  background-image: url("Images/sec.jpg");
+  /* background-attachment: fixed; */
+   background-position: center;
+   background-size: cover;
+}
+footer address{
+  font-size: 110%;
+  font-style: italic;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+}
+footer p{
+  margin: 2% 0 0 0;
+  text-align: center;
+
+}
+/* .map{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.map button{
+  border: none;
+  border-radius:4px;
+  font-weight: 600;
+  background-color: orangered;
+  color: #fff;
+  padding: 0.7% 5%;
+}
+.bi-telephone{
+  font-size: 150%;
+}
+.bi-envelope{
+  font-size: 150%;
+}
+.phone{
+  font-size: 170%;
+  text-decoration: none;
+  text-align: center;
+  font-size: 105%;
+  color: whitesmoke;
+  pointer-events: none;
+}
+.bi{
+  vertical-align: middle;
+
+}
+.map iframe{
+  width: 100;
+  height: 100;
+}
+
+
+@media screen and (max-width: 576px) {
+  .cen{
+    margin: 0 2.5% 0 2.5%;
+   }
+   .cent{
+     margin: 0 2.5% 0 2.5%;
+    }
+  .saveethalogo{
+    width: 200px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .navbar-nav{
+    background-color:black;
+  }
+
+
+  #title h5{
+    font-weight: bold;
+  }
+  #title h3{
+    font-size: 90%;
+  }
+  #title h5{
+font-size: medium;
+  }
+
+
+
+
+
+
+
+  .paytable{
+    font-size:medium ;
+  }
+  #track1 tr{
+    font-size: medium;
+  }
+  #track2 tr{
+    font-size: medium;
+  }
+  #track1{
+    margin: 0 1% 0 1%;
+  }
+  #track2{
+    margin: 0 2% 0 2%;
+
+  }
+  #workshop table{
+    font-size: medium;
+    width: 90%;
+
+  }
+ #location .map{
+  display: inline-block;
+  justify-content:center ;
+  align-items: center;
+  text-align: center;
+ }
+
+.table1 {
+  width: 95%;
+}
+
+.seclogo h5{
+  font-size: 115%;
+}
+.coll h3{
+  font-size: 130%;
+
+}
+
+
+}
+@media screen and (max-width: 768px) {
+
+
+
+  #title{
+    /* background-color: #e7e9f0;
+    color:white;
+    background-image: url("Images/bgsec.jpg");
+    background-attachment: fixed;
+     background-position: center;
+     background-size: cover; */
+     height: 90vh;
+    
+  }
+  
+ 
+  .cen{
+    margin: 0 2.5% 0 2.5%;
+   }
+   .cent{
+     margin: 0 2.5% 0 2.5%;
+    }
+
+
+
+    #About{
+      margin: 0 2%;
+      font-size: medium;
+
+    }
+
+
+
+    .col ul{
+      list-style-type:square;
+      font-size: medium;
+      margin: 0 3%;
+      text-align: left;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-weight: 500;
+      font-style: italic;
+
+    }
+    
+
+
+
+ #ImpRTables button{
+    font-weight: 400;
+      font-size: small;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #ImpRTables h3{
+    font-family: 'Marcellus SC', serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+  }
+  .tabs{
+    /* font-family:'Poppins',sans-serif; */
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    
+  }
+  .sidebar{
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     width:100%;
+     
+  }
+  .sidebar button{
+    margin-right: 3%;
+  }
+  .tab-btn{
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: #0e1b4d;
+    color: #fff;
+    padding: 0.5% 3%;
+    font-size: medium;
+  }
+  .tab-btn-active{
+    border: none;
+    border-radius:4px;
+    font-weight: 600;
+    background-color: orangered;
+    color: #fff;
+    padding: 0.5% 3%;
+  
+  }
+  .content{
+    width:100%;
+  }
+  .tab-content{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content:left;
+    text-align:left;
+  
+   
+    display: none;
+  }
+  .tab-content-active{
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+  }
+ .first{
+  width: 80%;
+ }
+  .second{
+    /* float: left;
+    padding-left: 5%; */
+    width: 90%;
+  }
+  th:first-child {
+   border-top-left-radius:3px;
+  }
+
+  .firsttable{
+    background: #E3E2D5;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 220px;
+    margin: auto;
+    max-width: 600px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+
+  }
+  .firsttable td{
+    font-size: 100%; 
+
+  }
+  .secondtable{
+    background: #E3E2D5;
+   border-radius:3px;
+   border-collapse: collapse;
+   height: 220px;
+   margin: auto;
+   max-width: 600px;
+   padding:5px;
+   text-align: center;
+   width: 100%;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   animation: float 5s infinite;
+  }
+  .secondtable td{
+    font-size: 70%;
+  }
+  
+  th:last-child {
+   border-top-right-radius:3px;
+   border-right:none;
+  }
+   
+  tr {
+   border-top: 1px solid #C1C3D1;
+   border-bottom: 1px solid #C1C3D1;
+   color:#666B85;
+   font-size:small;
+   font-weight:normal;
+   text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  }
+  
+  tr:hover td {
+   background:orangered;
+   color:#FFFFFF;
+   border-top: 1px solid #22262e;
+  }
+  
+  tr:first-child {
+   border-top:none;
+  }
+  
+  tr:last-child {
+   border-bottom:none;
+  }
+  
+  
+  
+  tr:last-child td:first-child {
+   border-bottom-left-radius:3px;
+  }
+  
+  tr:last-child td:last-child {
+   border-bottom-right-radius:3px;
+  }
+  
+  td {
+   background:#FFFFFF;
+   padding:12px;
+   text-align:left;
+   vertical-align:middle;
+   border-right: 1px solid #C1C3D1;
+   /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   font-weight: 500;
+   color: black;
+   font-style: italic;
+  
+  }
+  
+  td:last-child {
+   border-right: 0px;
+  }
+  .reg span{
+    text-align: center;
+  }
+  .tabs .reg span a{
+    text-align: center;
+    padding: 1.5%;
+    width: 100%;
+    border-radius: 1px;
+  }
+  #registrationDates tr{
+    padding-right: 50px;
+  }
+
+
+  #Faculties{
+    margin: 0 4%;
+
+  }
+  #Faculties h3{
+    font-weight: bold;
+    text-transform: capitalize;
+    
+    
+    }
+    #Faculties p{
+      text-align: justify;
+      font-weight: 500;
+      font-size: medium;
+      font-style: italic;
+    }
+
+
+
+  .saveethalogo{
+    margin-top: -3%;
+    width: 340px;
+    height: 80px;
+    object-fit: contain;
+  }
+  .seclogo a img{
+    width: 60px;
+    height: 60px;
+  }
+  .seclogo h5{
+    font-size: 115%;
+  }
+  .navbar-nav{
+    background-color:black;
+  }
+  .map{
+    padding-bottom: 4%;
+  }
+#location .map{    display: inline-block;
+    justify-content:center ;
+    align-items: center;
+   }
+   #workshop table{
+    font-size: medium;
+    width: 90%;
+  }
+
+.table1 {
+  width: 95%;
+}
+}
+
+
