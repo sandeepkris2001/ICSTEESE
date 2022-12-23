@@ -4,7 +4,7 @@ html{
     max-width: 100%; 
 }
 
-/* .reveal{
+.reveal{
   position: relative;
   transform: translateY(150px);
   opacity: 0;
@@ -14,7 +14,7 @@ html{
 .reveal.activee{
   transform: translateY(0);
   opacity: 1;
-} */
+}
 #load-hide{
   display: none;
 }
